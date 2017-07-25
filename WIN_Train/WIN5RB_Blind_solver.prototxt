@@ -1,0 +1,23 @@
+# The train/test net protocol buffer definition WIN5R
+net: "examples/WIN_Train/WIN5RB_Blind_net.prototxt"
+test_iter: 20000
+# Carry out testing every 500 training iterations.
+test_interval: 500
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+clip_gradients: 0.1
+# The learning rate policy
+lr_policy: "step"
+gamma: 0.1
+stepsize: 116840
+# Display every 100 iterations
+display: 100
+# The maximum number of iterations
+max_iter: 10000000
+# snapshot intermediate results
+snapshot: 5000
+snapshot_prefix: "WIN_Train/model/WIN5RB_Blind/"
+# solver mode: CPU or GPU
+solver_mode: GPU
