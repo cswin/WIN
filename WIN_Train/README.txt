@@ -1,8 +1,8 @@
 % ======================================================================
-% This is the training (Gaussian denoising) demo of the paper "Going Wider with Convolution for Image Denoising"
+% This is the training (Gaussian denoising) demo of the paper "Learning Distribution Prior with Wider Convolution for Image Denoising"
 
 % Version:       1.0 (07/24/2017)
-% Contact:       Peng Liu (e-mail: liupengufl@gmail.com)
+
 
 % ------ Contents -----------------------------------------------------
 Generate_Training_DATA: Generate all h5 data for training
@@ -49,5 +49,5 @@ The "($Caffe_Dir)/examples/WIN_Train/WIN.mat" will be there for you.
 % this software for any purpose. It is provided "as is" without express
 % or implied warranty.
 % ----------------------------------------------------------------------
-% If you find any bug, please contact liupengufl@gmail.com.
+%  
 % ----------------------------------------------------------------------
