@@ -1,5 +1,5 @@
 # WIN
-## Going Wider with Convolution for Image Denoising (Wider Inference Network for Image Denoising)
+## Learning Distribution Prior with Wider Convolution for Image Denoising
 
 ### Main Contents:
 
