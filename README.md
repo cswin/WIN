@@ -1,5 +1,5 @@
 # WIN
-## Learning Distribution Prior with Wider Convolution for Image Denoising
+## Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising
 
 ### Main Contents:
 
