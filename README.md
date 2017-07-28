@@ -26,7 +26,7 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
  
 ### Comparing training and test loss error during training between WIN7+BN and WIN10+BN:
 
-In WINs, BN cannot work without the input-to-output skip connection and is always over-fitting.
+WIN+BN cannot work without the input-to-output skip connection and is always over-fitting.
 
 ![WINBN](http://i.imgur.com/U7mbmSG.png)
 
