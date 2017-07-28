@@ -15,11 +15,6 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 -----------------------------------------------------------------
 
-### Prior: Pixel-Distribution:
-**Compare the pixel-distributions at different noise levels**
-![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
-
-![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/plrKXth.png)
@@ -41,7 +36,6 @@ WIN+BN cannot work without the input-to-output skip connection and is always ove
 
 As the noise level is increasing, the performance gain of WIN5-RB-B is getting larger, while the performance gain of DnCNN comparing to BM3D is not changing much as the noise level is changing. Compared with WINs, DnCNN is composed of even more layers embedded with BN. This observation indicates that the performance gain achieved by WIN5-RB does not mostly come from BN's regularization effect but the pixel-distribution features learned and relevant priors such as means and variances reserved in WINs. Both Larger kernels and more channels can promote CNNs more likely to learn pixel-distribution features. 
  
-
 **First image from Set12-test with noise level=10**
 ![First image from Set12-test with noise level=10](http://i.imgur.com/4WkiKXI.png)
 
@@ -55,5 +49,10 @@ As the noise level is increasing, the performance gain of WIN5-RB-B is getting l
 ![2Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/p1qPVuI.png)
 
 
+### Prior: Pixel-Distribution:
+**Compare the pixel-distributions at different noise levels**
+![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
+
+![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
 
