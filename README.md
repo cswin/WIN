@@ -1,8 +1,8 @@
 # WIN
 ## Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising
-
+-----------------------------------------------------------------
 ### Main Contents:
-
+-----------------------------------------------------------------
 **WIN_Train**: training demo for Gaussian denoising.
 
 **demos**:  Demo_test_WIN-.m.
@@ -15,7 +15,7 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 
 ### Results:
-
-![First One image from BSD200-test with noise level=10 ](https://github.com/cswin/WIN/blob/master/figure/10321_10.pdf)
+-----------------------------------------------------------------
+![First One image from BSD200-test with noise level=10](http://i.imgur.com/4WkiKXI.png)
 
 
