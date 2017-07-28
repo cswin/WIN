@@ -12,13 +12,13 @@
 **testsets**: BSD200 and Set12 for Gaussian denoising evaluation
 
 To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://www.vlfeat.org/matconvnet/install/) [MatConvNet](http://www.vlfeat.org/matconvnet/).
-
+-----------------------------------------------------------------
 ### Prior: Pixel-Distribution:
 **Compare the pixel-distributions at different noise levels**
 ![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
-
+-----------------------------------------------------------------
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/0tYYXVZ.png)
 
