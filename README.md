@@ -21,10 +21,11 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
------------------------------------------------------------------
-
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/plrKXth.png)
+ 
+### Comparing training and test loss error during training between WIN7+BN and WIN10+BN:
+![WINBN](http://i.imgur.com/U7mbmSG.png)
 
 -----------------------------------------------------------------
 ### Results:
