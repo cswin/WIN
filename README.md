@@ -67,5 +67,5 @@ As we can see, Increasing filter size can further improve performance.
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
-WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is the higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
+WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
 
