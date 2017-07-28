@@ -18,6 +18,7 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 -----------------------------------------------------------------
 **First image from BSD200-test with noise level=10**
 ![First image from BSD200-test with noise level=10](http://i.imgur.com/4WkiKXI.png)
+
 **Second image from BSD200-test with noise level=10**
 ![Second image from BSD200-test with noise level=10](http://imgur.com/kRH8oFx.png)
 
