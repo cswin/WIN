@@ -42,9 +42,6 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 **Second image from BSD200-test with noise level=10**
 ![Second image from BSD200-test with noise level=10](http://imgur.com/kRH8oFx.png)
 
-**One image from Set12-test with noise level=30**
-![One image from Set12-test with noise level=30](http://imgur.com/tGEN7nb.png)
-
 **I.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
 ![1Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/D7OjoKw.png)
 
