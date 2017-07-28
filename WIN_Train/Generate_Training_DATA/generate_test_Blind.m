@@ -25,8 +25,7 @@ for i = 1 : length(filepaths)
     image = im2double(image(:, :, 1));
     
     
-    for j = 1:8
-        image = data_augmentation(image, j);
+ 
         
         im_label = image;
         [hei,wid] = size(im_label);
@@ -47,8 +46,7 @@ for i = 1 : length(filepaths)
             end
         end
 
-
-    end
+ 
 end
 
 
