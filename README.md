@@ -19,8 +19,8 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
-### Inference noise by Pixel-distribution features 
-![pixel-Inference](http://i.imgur.com/GL3H5Xi.png)
+### Inference noise by Pixel-distribution features :
+![pixel-Inference](http://i.imgur.com/0tYYXVZ.png)
 
 ### Results:
 -----------------------------------------------------------------
