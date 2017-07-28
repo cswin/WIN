@@ -54,9 +54,12 @@ As the noise level is increasing, the performance gain of WIN5-RB-B is getting l
 **I.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
 ![1Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/D7OjoKw.png)
 
-**II.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30****
+As we can see, Increasing filter size can further improve performance.
+
+**II.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
 ![2Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/p1qPVuI.png)
 
+As we can see, Increasing filter size can further improve performance.
 
 ### Prior: Pixel-Distribution:
 **Compare the pixel-distributions at different noise levels**
@@ -64,4 +67,5 @@ As the noise level is increasing, the performance gain of WIN5-RB-B is getting l
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
+WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is the higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
 
