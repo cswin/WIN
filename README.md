@@ -18,18 +18,22 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/plrKXth.png)
+
 Learned priors (means and variances) are preserved in WINs as knowledge base for denoising inference. When WIN has more channels to preserve more data means and variances, various combinations of these feature maps can corporate with residual learning to infer the noise-free images more accurately. 
+
 ### Comparing training and test loss error during training between WIN7+BN and WIN10+BN:
 
 WIN+BN cannot work without the input-to-output skip connection and is always over-fitting.
 
 ![WINBN](http://i.imgur.com/U7mbmSG.png)
+
 In WIN5-RB's training, BN keeps the distribution of input data consistent and the skip connection
 can not only introduce residual learning but also guide the network to extract the certain features in common: pixel-distribution. 
 Without the input data as a comparison, BN could bring negative effects as keeping the each input distribution same, especially, when a task is to output pixel-level feature map. In DnCNN, two BN layers are removed from the first and last layers,
 by which a certain degree of the BN's negative effects can be reduced.
 Meantime DnCNN also highlights network's generalization ability largely
 relies on the depth of networks. 
+
 -----------------------------------------------------------------
 ### Results:
 -----------------------------------------------------------------
