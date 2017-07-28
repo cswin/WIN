@@ -22,6 +22,7 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/0tYYXVZ.png)
 
+-----------------------------------------------------------------
 ### Results:
 -----------------------------------------------------------------
 ![TESTBSD200](http://imgur.com/iKnZLSz.png)
