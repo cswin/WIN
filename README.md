@@ -45,11 +45,11 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 **One image from Set12-test with noise level=30**
 ![One image from Set12-test with noise level=30](http://imgur.com/tGEN7nb.png)
 
-**One image from BSD200-test with noise level=50**
-![One image from BSD200-test with noise level=50](http://imgur.com/tNmA0ir.png)
+**I.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
+![1Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/D7OjoKw.png)
 
-**One image from BSD200-test with noise level=70**
-![One image from BSD200-test with noise level=70](http://imgur.com/97yDMoz.png)
+**II.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30****
+![2Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/p1qPVuI.png)
 
 
 
