@@ -19,6 +19,7 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 ![TESTBSD200](http://imgur.com/iKnZLSz.png)
 
 **Behavior at different noise levels of average PSNR on BSD200-test**
+
 ![Behavior](http://i.imgur.com/GL3H5Xi.png)
 
 **First image from Set12-test with noise level=10**
