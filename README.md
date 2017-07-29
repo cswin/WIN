@@ -61,6 +61,9 @@ As we can see, Increasing filter size can further improve performance.
 
 As we can see, Increasing filter size can further improve performance.
 
+**III.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
+![3Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/legwbim.png)
+
 ### Prior: Pixel-Distribution:
 **Compare the pixel-distributions at different noise levels**
 ![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
