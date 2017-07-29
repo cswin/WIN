@@ -3,10 +3,7 @@
 
 ### Abstract
 
-In this work, we explore an innovative strategy for image denoising by using convolutional neural networks (CNN) to learn the similar pixel-distribution features from noisy images.   
-Many types of image noise usually follow a certain pixel-distribution in common, such as additive white Gaussian noise (AWGN). By increasing CNN's width with larger reception fields and more channels in each layer, 
-CNNs can reveal the ability to extract more accurate pixel-distribution features.  
-The key to our approach is a discovery that wider CNNs tends to learn the similar pixel-distribution features, which reveals a new strategy to solve low-level vision problems effectively. The inference-mapping primarily relies on the priors behind the noise property instead of deeper CNNs with more stacked nonlinear layers. We evaluate our work: Wide inference Networks (WIN) on AWGN and demonstrate that by learning the pixel-distribution features from images, WIN-based network consistently achieves significantly better performance than current state-of-the-art deep CNN-based methods in both quantitative and visual evaluations.
+In this work, we explore an innovative strategy for image denoising by using convolutional neural networks (CNN) to learn the similar pixel-distribution features from noisy images. Many types of image noise usually follow a certain pixel-distribution in common, such as additive white Gaussian noise (AWGN). By increasing CNN's width with larger reception fields and more channels in each layer, CNNs can reveal the ability to extract more accurate pixel-distribution features. The key to our approach is a discovery that wider CNNs tends to learn the similar pixel-distribution features, which reveals a new strategy to solve low-level vision problems effectively. The inference-mapping primarily relies on the priors behind the noise property instead of deeper CNNs with more stacked nonlinear layers. We evaluate our work: Wide inference Networks (WIN) on AWGN and demonstrate that by learning the pixel-distribution features from images, WIN-based network consistently achieves significantly better performance than current state-of-the-art deep CNN-based methods in both quantitative and visual evaluations.
 
 
 -----------------------------------------------------------------
