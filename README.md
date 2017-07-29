@@ -1,5 +1,15 @@
 # WIN
 ## Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising
+
+### Abstract
+
+In this work, we explore an innovative strategy for image denoising 
+by using convolutional neural networks (CNN) to learn pixel-distribution from noisy data. 
+By increasing CNN's width with larger reception fields and more channels in each layer, 
+CNNs can reveal the ability to learn pixel-distribution, which is a prior existing in many different types of noise. 
+The key to our approach is a discovery that wider CNNs tends to learn the pixel-distribution features, which provides the probability of that inference-mapping primarily relies on the priors instead of deeper CNNs with more stacked nonlinear layers. We evaluate our work: Wide inference Networks (WIN) on additive white Gaussian noise (AWGN) and demonstrate that by learning the pixel-distribution in images, WIN-based network consistently achieves significantly better performance than current state-of-the-art deep CNN-based methods in both quantitative and visual evaluations. \textit{Code and models are available at \url{https://github.com/cswin/WIN}}.
+
+
 -----------------------------------------------------------------
 ### Main Contents:
 -----------------------------------------------------------------
