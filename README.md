@@ -47,7 +47,7 @@ relies on the depth of networks.
 
 **Behavior at different noise levels of average PSNR on BSD200-test**
 
-![Behavior](http://i.imgur.com/GL3H5Xi.png) 
+![Behavior](http://imgur.com/QnzseRi.png) 
 
 As the noise level is increasing, the performance gain of WIN5-RB-B is getting larger, while the performance gain of DnCNN comparing to BM3D is not changing much as the noise level is changing. Compared with WINs, DnCNN is composed of even more layers embedded with BN. This observation indicates that the performance gain achieved by WIN5-RB does not mostly come from BN's regularization effect but the pixel-distribution features learned and relevant priors such as means and variances reserved in WINs. Both Larger kernels and more channels can promote CNNs more likely to learn pixel-distribution features. 
  
