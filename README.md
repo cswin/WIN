@@ -56,6 +56,10 @@ relies on the depth of networks.
 -----------------------------------------------------------------
 ![TESTBSD200](http://imgur.com/iKnZLSz.png)
 
+WIN infers noise-free images based on the learned pixel-distribution features. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason why WIN performs even better in higher-level noise.
+ 
+Moreover, the WIN5-RB-B is trained on more samples that are generated with data-augmentation skill. As one can see, the running time is much better than WIN5-RB-S without data-augmentation. This result indicates more training samples can help WINs learn more accurate similar features that can accelerate the inference.
+
 **Behavior at different noise levels of average PSNR on BSD200-test**
 
 ![Behavior](http://imgur.com/QnzseRi.png) 
