@@ -26,7 +26,11 @@ To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://w
 
 ![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
 
-WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
+WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
+
+We are claiming that WIN5 learns some similar pixel-distribution features and we call it as “Prior”, which gives much contribution for performance. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason why WIN performs even better in higher-level noise.
+ 
+Moreover, In the following Table, the WIN5-RB-B (blind denoising) is trained on more samples that are generated with data-augmentation skill. As one can see, the running time is much better than WIN5-RB-S without data-augmentation. This result indicates more training samples can help WINs learn more accurate similar features that can accelerate the inference.
 
 
 ### The process of denoising inference by sparse distribution statistics features:
