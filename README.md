@@ -20,6 +20,13 @@ In this work, we explore an innovative strategy for image denoising by using con
 To run the testing demos `Demo_test_WIN-.m`, you should first [install](http://www.vlfeat.org/matconvnet/install/) [MatConvNet](http://www.vlfeat.org/matconvnet/).
 
 -----------------------------------------------------------------
+### Prior: Pixel-Distribution:
+**Compare the pixel-distributions at different noise levels**
+![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
+
+![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
+
+WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
 
 
 ### The process of denoising inference by sparse distribution statistics features:
@@ -70,11 +77,4 @@ As we can see, Increasing filter size can further improve performance.
 **III.Comparing 7x7 filter-size WINs with 13x13 filter-size WINs for noise level=30**
 ![3Comparing 7x7 filter-size WINs with 13x13 level=30](http://i.imgur.com/legwbim.png)
 
-### Prior: Pixel-Distribution:
-**Compare the pixel-distributions at different noise levels**
-![pixel-distributions10](http://i.imgur.com/mojqbIU.png)
-
-![pixel-distributions50](http://i.imgur.com/Sd2cJhn.png)
-
-WIN inferences noise-free images based on the learned pixel-distribution features. When the noise level is higher, the pixel-distribution features are more similar. Thus, WIN can learn more pixel-distribution features from noisy images having higher level noise. This is the reason that WIN performs even better in higher-level noise.
 
