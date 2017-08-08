@@ -36,7 +36,7 @@ Moreover, In the following Table, the WIN5-RB-B (blind denoising) is trained on 
 ### The process of denoising inference by sparse distribution statistics features:
 ![pixel-Inference](http://i.imgur.com/plrKXth.png)
 
-We can consider ot BN as cache area in WINs. Learned priors are preserved in WINs as knowledge base for denoising inference. When WIN has more channels to preserve more data means and variances, various combinations of these feature maps can corporate with residual learning to infer the noise-free images more accurately. 
+We can consider BN as cache area in WINs. Learned priors are preserved in WINs as knowledge base for denoising inference. When WIN has more channels to preserve more data means and variances, various combinations of these feature maps can corporate with residual learning to infer the noise-free images more accurately. 
 
 ### Comparing training and test loss error during training between WIN7+BN and WIN10+BN:
 
