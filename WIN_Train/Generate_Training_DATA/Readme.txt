@@ -1,6 +1,6 @@
 % ======================================================================
 % This is the training (Gaussian denoising) demo of the paper "Learning Distribution Prior with Wider Convolution for Image Denoising"
-Please contact with : Peng Liu  pliu1@ufl.edu     Ruogu Fang ruogu.fang@bme.ufl.edu
+Please contact with : Peng Liu  pliu1@ufl.edu    
 % Version:       1.2 (08/2/2017)
  
 
